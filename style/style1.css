@@ -50,6 +50,10 @@ footer ul li {
     border-color: var(--red);
 }
 
+.checkout {
+    margin: 20px 0 40px;
+}
+
 .main-form {
     margin-top: 50px;
     margin-bottom: 50px;
