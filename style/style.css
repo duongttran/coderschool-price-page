@@ -1,0 +1,81 @@
+:root {
+    --red: #cd4541;
+}
+
+:root {
+    --red: rgb(0, 198, 212);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+.red {
+    color: var(--red);
+}
+
+.navbar-nav>.nav-item {
+    margin-left: 15px;
+}
+
+.typewrite {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    min-height: 800px;
+    background-color: white;
+}
+
+section:nth-child(2n+1) {
+    background-color: #e9ebee;
+}
+
+.second-p {
+    margin: 20px 0 30px;
+}
+
+.btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red);
+}
+
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+    min-height: 550px;
+}
+
+p.card-text {
+    min-height: 75px;
+}
+
+#third {
+    background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
+}
+
+#fourth>.container>p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+footer {
+    padding-top: 20px;
+}
